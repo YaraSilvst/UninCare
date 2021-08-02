@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../static/images/consultorio.png">
+    <title>UninCare | Gerenciar</title>
+
+    <!-- importando arquivos CSS  -->
+    <link type="text/css" rel="stylesheet" href="../static/css/bootstrap.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="../static/css/styles.css">
+    <link href="static/css/HoldOn.min.css" rel="stylesheet">
+    
+
+    <!-- Importando icones -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+        <div class="container">
+            <a class="navbar-brand" href="base.html">
+                <img src="../static/images/unincare.svg" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" style="color: #950606;" href="#" id="navbarDarkDropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            Administração
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-light">
+                            <li><a class="dropdown-item" href="#">Opção 1</a></li>
+                            <li><a class="dropdown-item" href="#">Opção 2</a></li>
+                            <li><a class="dropdown-item" href="#">Opção 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #950606;">Financeiro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #950606;">Minha Conta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #950606;">Sair</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="text-center">Nome do Procedimento</h1>
+        <hr class="divider">
+    </div>
+
+    <br><br>
+    <main>
+    <div class="container">
+        <nav>
+            <div class="nav nav-tabs d-flex justify-content-around" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" style="color: #950606;">Aguardando Confirmação</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" style="color: #950606;">Em Andamento</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false" style="color: #950606;">Finalizados</button>
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <br>
+                <div class="container">
+                    <table class="table text-center table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Paciente</th>
+                                <th>Horário</th>
+                                <th>Detalhes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>Michal Farnandas</td>
+                            <td>08:00 Sexta-Feira</td>
+                            <td>...</td>
+                            </tr>
+                            <tr>
+                            <td>Jacob</td>
+                            <td>13:00 Quarta-Feira</td>
+                            <td>...</td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <br>
+                <div class="container">
+                    <table class="table text-center table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Paciente</th>
+                                <th>Horário</th>
+                                <th>Detalhes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>Michal Farnandas</td>
+                            <td>08:00 Sexta-Feira</td>
+                            <td>...</td>
+                            </tr>
+                            <tr>
+                            <td>Jacob</td>
+                            <td>13:00 Quarta-Feira</td>
+                            <td>...</td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <br>
+                <div class="container">
+                    <table class="table text-center table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Paciente</th>
+                                <th>Horário</th>
+                                <th>Detalhes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>Michal Farnandas</td>
+                            <td>08:00 Sexta-Feira</td>
+                            <td>...</td>
+                            </tr>
+                            <tr>
+                            <td>Jacob</td>
+                            <td>13:00 Quarta-Feira</td>
+                            <td>...</td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+
+
+    <br><br><br>
+
+    <footer class="bg-light text-center text-lg-start ft-open">
+        <div class="text-center p-3">
+            © 2021 Copyright - UninCare
+        </div>
+    </footer>
+
+
+    <!-- Importando arquivos JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

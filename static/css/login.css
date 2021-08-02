@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+
+.ft-open{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    transform: translate3d(5px, 28px, 0px);
+    top: 10px;
+    left: 0px;
+    will-change: transform;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #eeeeee;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Encode Sans SC', sans-serif;
+    color: #950606;
+}
+
+h4 {
+    font-family: 'Cinzel', serif;
+    font-size: 22px;
+}
+
+label {
+    font-family: 'Cinzel', serif;
+}
+
+button {
+    font-family: 'Encode Sans SC', sans-serif;
+}

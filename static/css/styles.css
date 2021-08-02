@@ -50,8 +50,16 @@ h4 {
     font-size: 25px;
 }
 
+.button {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
 button {
     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+table {
+    font-family: 'Encode Sans SC';
 }
 
 .card-link {
